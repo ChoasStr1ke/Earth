@@ -25,7 +25,7 @@ export const Trees = forwardRef((props, ref) => {
         castShadow
         receiveShadow
         geometry={nodes.Foliage.geometry}
-        position={[0.33, -0.05, -0.68]}
+        position={[0.33, 0.05, -0.68]}
       >
         <shaderMaterial
           attach="material"
